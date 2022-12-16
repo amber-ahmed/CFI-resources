@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <p id="pos">10==</p>
+        <p id="neg">-10==</p>
+    </body>
+    <script>
+        let decimal = 10;
+        let binary = decimal.toString( 2 );
+        var output=document.getElementById("pos");
+        output.innerHTML+=binary;
+        let decimal2=-10;
+        let binary2 =((decimal2 >>> 0).toString( 2 ));
+        var output2=document.getElementById("neg");
+        output2.innerHTML+=binary2;
+    </script>
+</html>

@@ -1,0 +1,1 @@
+mkdir -p  ~/project/client/components/assets ~p/project/client/src  ~/project/server/components ~/project/server/utils ~/project/server/config
